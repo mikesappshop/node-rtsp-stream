@@ -1,5 +1,5 @@
 {
-  "name": "node-rtsp-stream",
+  "name": "mikesappshop-node-rtsp-stream",
   "version": "0.0.3",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "node-rstp-stream"
+    "url": "mikesappshop-node-rtsp-stream"
   },
-  "author": "David Jsa <david@jsa.me>",
+  "author": "Mike Neill <miken@mikesappshop.com>",
   "license": "MIT",
   "devDependencies": {
     "coffee-script": "^1.8.0"

@@ -1,17 +1,20 @@
 node-rtsp-stream
 ================
 
+** NOTE **
+This is a fork of the Node RTSP Stream library found at https://github.com/kyriesent/node-rtsp-stream. This fork is simply to modify the FFMPeg command arguments to improve video playback of a stream in the Google Chrome web browser.
+
 Stream any RTSP stream and output to websocket for consumption by [jsmpeg](https://github.com/phoboslab/jsmpeg). HTML5 streaming video! (Requires ffmpeg)
 
 Usage:
 
 ```
-$ npm install node-rtsp-stream
+$ npm install mikesappshop-node-rtsp-stream
 ```
 
 On server:
 ```
-Stream = require('node-rtsp-stream');
+Stream = require('mikesappshop-node-rtsp-stream');
 stream = new Stream({
     name: 'name',
     streamUrl: 'rtsp://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov',
